@@ -1,0 +1,6 @@
+mysqldata/
+frontend/node_modules/
+backend/node_modules/
+backend/credentials/data.json
+backend/dist/
+frontend/dist/

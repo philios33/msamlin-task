@@ -1,0 +1,44 @@
+.Root {
+
+    background-color: lightgray;
+
+    ul {
+        margin: 0px;
+        li {
+            
+            color: white;
+            list-style: none;
+            display: inline-block;
+            margin: 10px;
+            a {
+                display: inline-block;
+                border: 1px solid transparent;
+                background-color: blue;
+                padding: 10px;
+                color: white;
+                &:visited {
+                    color: white;
+                }
+                height: 30px;
+                text-decoration: none;
+
+                &:hover {
+                    border-color: yellow;
+                }
+            }
+
+            button {
+                background-color: blue;
+                color: white;
+                cursor: pointer;
+            }
+        }
+    }
+
+    .loggedInAs {
+        font-size: 12px;
+        margin: 0px;
+        color: black;
+    }
+
+}

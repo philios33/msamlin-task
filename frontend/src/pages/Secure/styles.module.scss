@@ -1,0 +1,17 @@
+.Root {
+
+    color: black;
+    
+    .protectedContent {
+        border: 1px solid black;
+        background-color: lightgrey;
+        color: black;
+        padding: 10px;
+        font-size: 20px;
+    }
+
+    .errorMessage {
+        color: red;
+    }
+
+}
